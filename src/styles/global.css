@@ -39,43 +39,43 @@ body {
   min-height: 100vh;
   margin: auto;
   background-color: var(--primary-background);
-  color: var(--font-white);
+  color: var(--font-blue);
 }
 
 /* Typografi Mobil*/
 h1 {
-  font-family: Campton;
+  font-family: Martel;
   font-size: 3.5rem;
-  font-weight: var(--bold);
+  font-weight: var(--font-blue);
 }
 
 h2 {
-  font-family: Campton;
+  font-family: "Montserrat";
   font-size: 2.25rem;
-  font-weight: var(--medium);
+  font-weight: var(--font-blue);
 }
 
 .citat {
-  font-family: martel, sans-serif;
+  font-family: "Martel";
   font-size: 1.25rem;
   font-style: italic;
-  font-weight: var(--light);
+  font-weight: var(--font-blue);
 }
 
 h3 {
-  font-family: Campton;
+  font-family: "Martel", "sans";
   font-size: 1.7rem;
   font-weight: var(--medium);
 }
 
 .h3_light {
-  font-family: Campton;
+  font-family: "Martel";
   font-size: 1.7rem;
   font-weight: var(--regular);
 }
 
 h4 {
-  font-family: Rubik;
+  font-family: "Martel";
   font-size: 1.3125rem;
   color: var(--font-black);
   font-weight: var(--regular);
@@ -83,44 +83,10 @@ h4 {
 
 p,
 a {
-  font-family: "Rubik", sans-serif;
+  font-family: "Martel";
   font-size: 1rem;
   font-weight: var(--regular);
   text-decoration: none;
-}
-
-/* Formular fonter */
-
-/* Formular H2 */
-.formular_h2 {
-  font-family: Rubik;
-  font-size: 1.8rem;
-
-  font-weight: var(--verybold);
-}
-
-/* Formular p */
-.formular_p {
-  color: var(--font-black);
-  font-family: Rubik;
-  font-size: 0.9rem;
-  font-weight: var(--regular);
-}
-
-/* Formular p Bold */
-.formular_p_bold {
-  color: var(--font-black);
-  font-family: Rubik;
-  font-size: 1.2rem;
-  font-weight: var(--verybold);
-}
-
-.lille_p {
-  color: var(--font-black);
-  font-family: Rubik;
-  font-size: 0.8rem;
-
-  font-weight: var(--regular);
 }
 
 @media (min-width: 900px) {
@@ -146,7 +112,7 @@ a {
   }
   /* H4 web */
   h4 {
-    font-family: Rubik;
+    font-family: "Montserrat";
     font-size: 2.25rem;
   }
 
@@ -158,26 +124,5 @@ a {
     font-size: 1.3rem;
     align-self: center;
     justify-content: center;
-  }
-
-  /* Formular fonter */
-
-  /* Formular H2 */
-  .formular_h2 {
-    font-size: 2rem;
-  }
-
-  /* Formular p */
-  .formular_p {
-    font-size: 1.0625rem;
-  }
-
-  /* Formular p Bold */
-  .formular_p_bold {
-    font-size: 1.125rem;
-  }
-
-  .lille_p {
-    font-size: 0.875rem;
   }
 }

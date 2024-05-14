@@ -1,3 +1,28 @@
 ---
 import "../styles/styles.css";
+import Footer from "../components/Footer.astro";
+const { title } = Astro.props;
 ---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Holistisk Massage- & Zoneterapeut</a>
+      <a href="#">Book tid</a>
+      <a href="#">Behandlinger</a>
+      <a href="#">Produkter</a>
+      <a href="#">Blog</a>
+      <a href="#">Om</a>
+    </nav>
+    <h1>{title}</h1>
+    <article>
+      <slot />
+      <!-- your content is injected here -->
+    </article>
+    <Footer />
+  </body>
+</html>

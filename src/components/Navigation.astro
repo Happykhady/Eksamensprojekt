@@ -1,0 +1,57 @@
+---
+import "../styles/styles.css";
+---
+
+<ul>
+  <div class="container">
+    <div class="navi"></div>
+    <li class="Home">
+      <a href="../tips">Holistisk Massage- & Zoneterapi</a>
+    </li>
+    <li class="book"><a href="../tips">Book tid</a></li>
+    <li class="behanlinger"><a href="../tips">Behandlinger</a></li>
+    <li class="produkter"><a href="../tips">Produkter</a></li>
+    <li class="blog"><a href="../tips">Blog</a></li>
+    <li class="om"><a href="../tips">Om</a></li>
+  </div>
+
+  <div class="icons">
+    <li><a href="#"><img src="../images/instagram.svg" alt="insta" /></a></li>
+    <li>
+      <a href="#"><img src="../images/facebook.svg" alt="facebook" /></a>
+    </li>
+  </div>
+</ul>
+
+<div class="divider"></div>
+
+<style>
+  .navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .divider {
+    border-bottom: 1px solid var(--font-white);
+  }
+
+  .container {
+    background-color: none;
+    display: flex;
+
+    list-style-type: none;
+
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  a {
+    color: var(--font-blue);
+    text-decoration: none;
+  }
+
+  @media (min-width: 900px);
+</style>
